@@ -26,6 +26,7 @@ function generateArray(n) {
         cpu[row][col] = 1;
         shipsleft--;
     }
+    console.log("Generated CPU Array:{0}", cpu);
 }
 
 document.addEventListener('DOMContentLoaded', generateArray(cpu))
